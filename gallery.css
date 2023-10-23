@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.header {
+    width: 100%;
+    height: 12vh;
+     /* background-color: red; */
+}
+.logo {
+    position: absolute;
+    left: 15%;
+    top: 4%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.navigation {
+    position: absolute;
+    left: 40%;
+    top: 4%;
+    font-size: 20px;
+}
+.navigation a {
+    color: black;
+    text-decoration: none;
+    padding-left: 60px;
+}
+.menu_bar {
+    position: absolute;
+    right: 8%;
+    top: 3%;
+    cursor: pointer;
+}
+.home_body {
+    width: 100%;
+    height: 88vh;
+    background-color: black;
+}
+.text {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 390px;
+    left: 10%;
+}
+.text span {
+    position: relative;
+    top: 30px;
+    font-size: 60px;
+}
+.body {
+    width: 100%;
+    height: 10vh;
+    /* background-color: red; */
+}
+.Project p{
+    position: absolute;
+    left: 5%;
+    top: 105%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.link {
+    width: 50%;
+    /* background-color: teal; */
+    position: absolute;
+    top: 105%;
+    right: 5%;
+}
+.link a {
+    color: black;
+    text-decoration: none;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.gallery {
+    width: 100%;
+    height: 210vh;
+    /* background-color: red; */
+}
+.image {
+    width: 80%;
+    height: 198vh;
+    background-color: white;
+    position: absolute;
+    top: 120%;
+    left: 10%;
+}
+.one img {
+    width: 48%;
+}
+.two img {
+    width: 50%;
+    height: 58vh;
+    position: absolute;
+    left: 50%;
+    top: -0.1px;
+}
+.three img {
+    width: 48%;
+    position: relative;
+    top: 20px;
+}
+.four img {
+    width: 50%;
+    height: 58vh;
+    position: relative;
+    left: 50%;
+    top: -345px;
+}
+.five img {
+    width: 48%;
+    position: relative;
+    top: -325px;
+}
+.six img {
+    width: 50%;
+    height: 58vh;
+    position: relative;
+    left: 50%;
+    top: -692px;
+}
+.about_read {
+    width: 12%;
+    height: 8vh;
+    position: absolute;
+    left: 45%;
+    top: 310%;
+    font-size: 25px;
+    color: black;
+    border: 2px solid black;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    cursor: pointer;
+}
+.about_read:hover {
+    background-color: black;
+    color: white;
+}
+.about_read p {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.email {
+    width: 100%;
+    height: 65vh;
+    background-color: rgb(248, 246, 246);
+    /* background-color: red; */
+    position: absolute;
+    top: 325%;
+}
+.email p {
+    position: absolute;
+    left: 13%;
+    top: 150px;
+    font-size: 20px;
+}
+.email span {
+    position: absolute;
+    left: 13%;
+    top: 200px;
+    font-size: 20px;
+}
+.email span a {
+    color: black;
+    text-decoration: none;
+}
+.social {
+    position: relative;
+    top: 25%;
+}
+.inst img {
+    width: 30px;
+    position: absolute;
+    left: 13%;
+    top: 190px;
+}
+.inst img:hover {
+    cursor: pointer;
+}
+.face img {
+    width: 30px;
+    position: absolute;
+    left: 19%;
+    top: 190px;
+}
+.face img:hover {
+    cursor: pointer;
+}
+.twit img {
+    width: 30px;
+    position: absolute;
+    left: 25%;
+    top: 190px;
+}
+.twit img:hover {
+    cursor: pointer;
+}
+.look {
+    width: 35%;
+    position: absolute;
+    right: 13%;
+}
+.look p {
+    font-size: 27px;
+}
+.look p a {
+    color: black;
+    position: relative;
+    /* left: 12px; */
+    font-size: 32px;
+}
+.footer {
+    width: 100%;
+    height: 71vh;
+    background-color: black;
+    position: absolute;
+    top: 390%;
+    color: white;
+}
+.home {
+    position: absolute;
+    left: 7%;
+    top: 46%;
+}
+.home a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.about_footer {
+    position: relative;
+    left: 250%;
+    top: -31px;
+}
+.footer_logo {
+    position: relative;
+    left: 520%;
+    top: -75px;
+    cursor: pointer;
+}
+.footer_logo p {
+    font-size: 40px;
+}
+.service_footer{
+    position: relative;
+    left: 790%;
+    top: -110px;
+    font-size: 25px;
+}
+.gallery_footer {
+    position: relative;
+    left: 1030%;
+    top: -140px;
+    font-size: 25px;
+}
+.footer_border {
+    width: 1100%;
+    position: absolute;
+    top: 60%;
+    border-bottom: 1px solid white;
+}

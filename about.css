@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.header {
+    width: 100%;
+    height: 12vh;
+     /* background-color: red; */
+}
+.logo {
+    position: absolute;
+    left: 15%;
+    top: 4%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.navigation {
+    position: absolute;
+    left: 40%;
+    top: 4%;
+    font-size: 20px;
+}
+.navigation a {
+    color: black;
+    text-decoration: none;
+    padding-left: 60px;
+}
+.menu_bar {
+    position: absolute;
+    right: 8%;
+    top: 3%;
+    cursor: pointer;
+}
+.home_body {
+    width: 100%;
+    height: 88vh;
+    background-color: black;
+}
+.text {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 390px;
+    left: 10%;
+}
+.text span {
+    position: relative;
+    top: 30px;
+    font-size: 60px;
+}
+.fabrice {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(248, 246, 246); 
+}
+.fabrice span {
+    position: relative;
+    left: 8%;
+    top: 45px;
+    font-size: 35px;
+    cursor: pointer;
+}
+.fabrice p {
+    position: relative;
+    left: 40%;
+    top: 5px;
+    font-size: 35px;
+    cursor: pointer;
+}
+.die {
+    position: relative;
+    left: 30%;
+    top: -40px;
+    font-size: 35px;
+    cursor: pointer;
+}
+.about_body {
+    width: 100%;
+    height: 88vh;
+    /* background-color: red; */
+}
+.about {
+    position: relative;
+    left: 10%;
+    top: 100px;
+}
+.about img {
+    width: 30%;
+}
+.about_text {
+    width: 40%;
+    color: black;
+    font-size: 50px;
+    position: relative;
+    left: 50%;
+    top: -300px;
+}
+.about_shoot {
+    width: 35%;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+    top: -260px;
+}
+.about_read {
+    position: relative;
+    top: 30px;
+}
+.magic {
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(248, 246, 246);
+    /* background-color: red; */
+    position: absolute;
+    top: 205%;
+}
+.span {
+    text-align: center;
+    position: relative;
+    top: 40px;
+    font-size: 25px;
+    color: rgb(170, 170, 170);
+}
+.roof {
+    text-align: center;
+    font-size: 45px;
+    position: relative;
+    top: 50px;
+}
+.image {
+    width: 100%;
+    height: 56vh;
+    /* background-color: red; */
+    position: absolute;
+    top: 35%;
+}
+.image .seven img {
+    width: 300px;
+    position: relative;
+    left: 2%;
+    top: -70px;
+    height: 56vh;
+}
+.seven p {
+    font-size: 30px;
+    position: relative;
+    top: -50px;
+    left: 10%;
+}
+.seven span {
+    font-size: 20px;
+    position: relative;
+    left: 12%;
+    top: -45px;
+    color: rgb(170, 170, 170);
+}
+.image .eight img {
+    width: 300px;
+    height: 56vh;
+    position: relative;
+    left: 27%;
+    top: -497px;
+}
+.eight p {
+    font-size: 30px;
+    position: relative;
+    top: -480px;
+    left: 35%;
+}
+.eight span {
+    font-size: 20px;
+    position: relative;
+    left: 37%;
+    top: -475px;
+    color: rgb(170, 170, 170);
+}
+.image .nine img {
+    width: 300px;
+    height: 56vh;
+    position: relative;
+    left: 51.5%;
+    top: -922px;
+}
+.nine p {
+    font-size: 30px;
+    position: relative;
+    top: -905px;
+    left: 60%;
+}
+.nine span {
+    font-size: 20px;
+    position: relative;
+    left: 62%;
+    top: -900px;
+    color: rgb(170, 170, 170);
+}
+.image .ten img {
+    width: 300px;
+    height: 56vh;
+    position: relative;
+    left: 76%;
+    top: -1350px;
+}
+.ten p {
+    font-size: 30px;
+    position: relative;
+    top: -1335px;
+    left: 85%;
+}
+.ten span {
+    font-size: 20px;
+    position: relative;
+    left: 87%;
+    top: -1330px;
+    color: rgb(170, 170, 170);
+}
+.studio {
+    width: 100%;
+    height: 200vh;
+    background-color: rgb(49, 45, 45);
+    position: relative;
+    top: 510px;
+}
+.studio p {
+    position: relative;
+    left: 8%;
+    top: 50px;
+    font-size: 18px;
+    color: rgb(170, 170, 170);
+}
+.studio span {
+    position: relative;
+    left: 8%;
+    top: 100px;
+    font-size: 35px;
+    color: white;
+}
+.photo {
+    width: 81%;
+    height: 71vh;
+    /* background-color: teal; */
+    position: relative;
+    left: 10%;
+    top: 150px;
+}
+.one img {
+    width: 31%;
+    height: 71vh;
+}
+.two img {
+    width: 31%;
+    height: 71vh;
+    position: absolute;
+    left: 378px;
+    top: -0.5px;
+}
+.three img {
+    width: 31%;
+    height: 71vh;
+    position: absolute;
+    left: 756px;
+    top: -0.5%;
+}
+.four img {
+    width: 31%;
+    height: 71vh;
+    position: absolute;
+    top: 110%;
+}
+.five img {
+    width: 31%;
+    height: 71vh;
+    position: absolute;
+    top: 110%;
+    left: 34.5%;
+}
+.six img {
+    width: 31%;
+    height: 71vh;
+    position: absolute;
+    top: 110%;
+    left: 69%;
+}
+.seven img {
+    width: 31%;
+    height: 65vh;
+    position: absolute;
+    top: 300%;
+}
+.view {
+    width: 12%;
+    height: 8vh;
+    position: absolute;
+    left: 45%;
+    top: 94%;
+    color: white;
+    border: 2px solid white;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    cursor: pointer;
+}
+.view:hover {
+    background-color: white;
+    color: black;
+}
+.view p:hover {
+    color: black;
+}
+.view p {
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 25px;
+   left: -1px;
+}
+.email {
+    width: 100%;
+    height: 65vh;
+    background-color: rgb(248, 246, 246);
+    /* background-color: red; */
+    position: absolute;
+    top: 516%;
+}
+.email p {
+    position: absolute;
+    left: 13%;
+    top: 150px;
+    font-size: 20px;
+}
+.email span {
+    position: absolute;
+    left: 13%;
+    top: 200px;
+    font-size: 20px;
+}
+.email span a {
+    color: black;
+    text-decoration: none;
+}
+.social {
+    position: relative;
+    top: 25%;
+}
+.inst img {
+    width: 30px;
+    position: absolute;
+    left: 13%;
+    top: 190px;
+}
+.inst img:hover {
+    cursor: pointer;
+}
+.face img {
+    width: 30px;
+    position: absolute;
+    left: 19%;
+    top: 190px;
+}
+.face img:hover {
+    cursor: pointer;
+}
+.twit img {
+    width: 30px;
+    position: absolute;
+    left: 25%;
+    top: 190px;
+}
+.twit img:hover {
+    cursor: pointer;
+}
+.look {
+    width: 35%;
+    position: absolute;
+    right: 13%;
+}
+.look p {
+    font-size: 27px;
+}
+.look p a {
+    color: black;
+    position: relative;
+    /* left: 12px; */
+    font-size: 32px;
+}
+.footer {
+    width: 100%;
+    height: 71vh;
+    background-color: black;
+    position: absolute;
+    top: 581%;
+    color: white;
+}
+.home {
+    position: absolute;
+    left: 7%;
+    top: 46%;
+}
+.home a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.about_footer {
+    position: relative;
+    left: 250%;
+    top: -31px;
+}
+.footer_logo {
+    position: relative;
+    left: 520%;
+    top: -75px;
+    cursor: pointer;
+}
+.footer_logo p {
+    font-size: 40px;
+}
+.service {
+    position: relative;
+    left: 790%;
+    top: -110px;
+    font-size: 25px;
+}
+.gallery {
+    position: relative;
+    left: 1030%;
+    top: -140px;
+    font-size: 25px;
+}
+.footer_border {
+    width: 1100%;
+    position: absolute;
+    top: 60%;
+    border-bottom: 1px solid white;
+}

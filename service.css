@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.header {
+    width: 100%;
+    height: 12vh;
+     /* background-color: red; */
+}
+.logo {
+    position: absolute;
+    left: 15%;
+    top: 4%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.navigation {
+    position: absolute;
+    left: 40%;
+    top: 4%;
+    font-size: 20px;
+}
+.navigation a {
+    color: black;
+    text-decoration: none;
+    padding-left: 60px;
+}
+.menu_bar {
+    position: absolute;
+    right: 8%;
+    top: 3%;
+    cursor: pointer;
+}
+.home_body {
+    width: 100%;
+    height: 88vh;
+    background-color: black;
+}
+.text {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 390px;
+    left: 10%;
+}
+.text span {
+    position: relative;
+    top: 30px;
+    font-size: 60px;
+}
+.service {
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(238, 234, 234);
+}
+.one {
+    width: 20%;
+    height: 50vh;
+    background-color: white;
+    position: absolute;
+    left: 8%;
+    top: 110%;
+    box-shadow: 5px 2px 20px 2px rgb(127, 125, 125);
+}
+.one:hover {
+    transition: box-shadow 0.3s ease-in-out; 
+    box-shadow: 5px 2px 5px 2px rgb(127, 125, 125);
+    border-radius: 5px;
+}
+.one h1 {
+    text-align: center;
+    position: relative;
+    top: 130px;
+    cursor: pointer;
+}
+.two {
+    width: 20%;
+    height: 50vh;
+    background-color: white;
+    position: absolute;
+    left: 30%;
+    top: 110%;
+    box-shadow: 5px 2px 20px 2px rgb(127, 125, 125);
+}
+.two:hover {
+    transition: box-shadow 0.3s ease-in-out; 
+    box-shadow: 5px 2px 5px 2px rgb(127, 125, 125);
+    border-radius: 5px;
+}
+.two h1 {
+    text-align: center;
+    position: relative;
+    top: 130px;
+    cursor: pointer;
+}
+.three {
+    width: 20%;
+    height: 50vh;
+    background-color: white;
+    position: absolute;
+    left: 52%;
+    top: 110%;
+    box-shadow: 5px 2px 20px 2px rgb(127, 125, 125);
+}
+.three:hover {
+    transition: box-shadow 0.3s ease-in-out; 
+    box-shadow: 5px 2px 5px 2px rgb(127, 125, 125);
+    border-radius: 5px;
+}
+.three h1 {
+    text-align: center;
+    position: relative;
+    top: 130px;
+    cursor: pointer;
+}
+.four {
+    width: 20%;
+    height: 50vh;
+    background-color: white;
+    position: absolute;
+    left: 74%;
+    top: 110%;
+    box-shadow: 5px 2px 20px 2px rgb(127, 125, 125);
+}
+.four:hover {
+    transition: box-shadow 0.3s ease-in-out; 
+    box-shadow: 5px 2px 5px 2px rgb(127, 125, 125);
+    border-radius: 5px;
+}
+.four h1 {
+    text-align: center;
+    position: relative;
+    top: 130px;
+    cursor: pointer;
+}
+.our {
+    width: 100%;
+    height: 120vh;
+    /* background-color: rgb(238, 234, 234); */
+}
+.our p {
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+}
+.our span {
+    font-size: 20px;
+    position: relative;
+    left: 18%;
+    top: 70px;
+}
+.span p{
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+}
+.sono {
+    width: 30%;
+    height: 70vh;
+    background-color: white;
+    position: relative;
+    left: 3%;
+    top: 139px;
+    background-color: rgb(238, 234, 234);
+}
+.sono img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 5px;
+}
+.sono h1 {
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+.sono p {
+    font-size: 20px;
+    width: 90%;
+    position: relative;
+    left: 18px;
+}
+.photo {
+    width: 30%;
+    height: 70vh;
+    background-color: white;
+    position: relative;
+    left: 35%;
+    top: -319px;
+    background-color: rgb(238, 234, 234);
+}
+.photo img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 5px;
+}
+.photo h1 {
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+.photo p {
+    font-size: 20px;
+    width: 90%;
+    position: relative;
+    left: 15px;
+}
+.irembo {
+    width: 30%;
+    height: 70vh;
+    background-color: white;
+    position: relative;
+    left: 67%;
+    top: -775px;
+    background-color: rgb(238, 234, 234);
+}
+.irembo img {
+    width: 100%;
+    height: 40vh;
+    border-radius: 5px;
+}
+.irembo h1 {
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+.irembo p {
+    font-size: 20px;
+    width: 90%;
+    position: relative;
+    left: 15px;
+}
+.about_read {
+    width: 12%;
+    height: 8vh;
+    position: absolute;
+    left: 45%;
+    top: 295%;
+    font-size: 25px;
+    color: black;
+    border: 2px solid black;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    cursor: pointer;
+}
+.about_read:hover {
+    background-color: black;
+    color: white;
+}
+.about_read p {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.email {
+    width: 100%;
+    height: 65vh;
+    background-color: rgb(248, 246, 246);
+    /* background-color: red; */
+    position: absolute;
+    top: 310%;
+}
+.email p {
+    position: absolute;
+    left: 13%;
+    top: 150px;
+    font-size: 20px;
+}
+.email span {
+    position: absolute;
+    left: 13%;
+    top: 200px;
+    font-size: 20px;
+}
+.email span a {
+    color: black;
+    text-decoration: none;
+}
+.social {
+    position: relative;
+    top: 25%;
+}
+.inst img {
+    width: 30px;
+    position: absolute;
+    left: 13%;
+    top: 190px;
+}
+.inst img:hover {
+    cursor: pointer;
+}
+.face img {
+    width: 30px;
+    position: absolute;
+    left: 19%;
+    top: 190px;
+}
+.face img:hover {
+    cursor: pointer;
+}
+.twit img {
+    width: 30px;
+    position: absolute;
+    left: 25%;
+    top: 190px;
+}
+.twit img:hover {
+    cursor: pointer;
+}
+.look {
+    width: 35%;
+    position: absolute;
+    right: 13%;
+}
+.look p {
+    font-size: 27px;
+}
+.look p a {
+    color: black;
+    position: relative;
+    /* left: 12px; */
+    font-size: 32px;
+}
+.footer {
+    width: 100%;
+    height: 71vh;
+    background-color: black;
+    position: absolute;
+    top: 375%;
+    color: white;
+}
+.home {
+    position: absolute;
+    left: 7%;
+    top: 46%;
+}
+.home a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.about_footer {
+    position: relative;
+    left: 250%;
+    top: -31px;
+}
+.footer_logo {
+    position: relative;
+    left: 520%;
+    top: -75px;
+    cursor: pointer;
+}
+.footer_logo p {
+    font-size: 40px;
+}
+.service_footer{
+    position: relative;
+    left: 790%;
+    top: -110px;
+    font-size: 25px;
+}
+.gallery {
+    position: relative;
+    left: 1030%;
+    top: -140px;
+    font-size: 25px;
+}
+.footer_border {
+    width: 1100%;
+    position: absolute;
+    top: 60%;
+    border-bottom: 1px solid white;
+}

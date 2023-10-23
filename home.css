@@ -1,0 +1,733 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+.header {
+    width: 100%;
+    height: 12vh;
+    /* background-color: red; */
+}
+.logo {
+    position: absolute;
+    left: 15%;
+    top: 4%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.navigation {
+    position: absolute;
+    left: 40%;
+    top: 4%;
+    font-size: 20px;
+}
+.navigation a {
+    color: black;
+    text-decoration: none;
+    padding-left: 60px;
+}
+.menu_bar {
+    position: absolute;
+    right: 8%;
+    top: 3%;
+    cursor: pointer;
+}
+.home_body {
+    width: 100%;
+    height: 88vh;
+    background-color: black;
+}
+.text {
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+.about_body {
+    width: 100%;
+    height: 88vh;
+    background-color: rgb(238, 234, 234);
+}
+.about {
+    position: absolute;
+    left: 10%;
+    top: 110%;
+}
+.about img {
+    width: 80%;
+}
+.about_text {
+    width: 40%;
+    color: black;
+    font-size: 50px;
+    position: relative;
+    left: 50%;
+    top: 20%;
+}
+.about_shoot {
+    width: 35%;
+    color: black;
+    font-size: 20px;
+    position: relative;
+    left: 50%;
+    top: 28%;
+}
+.about_read {
+    width: 12%;
+    height: 7vh;
+    position: absolute;
+    left: 50%;
+    top: 165%;
+    font-size: 25px;
+    color: black;
+    border: 2px solid black;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    cursor: pointer;
+}
+.about_read:hover {
+    background-color: black;
+    color: white;
+}
+.about_read p {
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+.magic {
+    width: 100%;
+    height: 175vh;
+    /* background-color: teal; */
+}
+.span {
+    position: absolute;
+    left: 10%;
+    top: 200%;
+    font-size: 20px;
+    color: rgb(170, 170, 170);
+}
+.roof {
+    position: absolute;
+    left: 10%;
+    top: 205%;
+    font-size: 45px;
+}
+.container_image {
+    width: 80%;
+    height: 144vh;
+    background-color: white;
+    position: relative;
+    left: 10%;
+    top: 190px;
+}
+.two img {
+    width: 32%;
+    height: 71vh;
+}
+.three img {
+    width: 32%;
+    height: 71vh;
+    position: relative;
+    left: 34%;
+    top: -469px;
+}
+.four img {
+    width: 32%;
+    height: 71vh;
+    position: relative;
+    left: 68%;
+    top: -940px;
+}
+.five img {
+    width: 32%;
+    height: 70vh;
+    position: relative;
+    top: -900px;
+}
+.six img {
+    width: 32%;
+    height: 70vh;
+    position: relative;
+    left: 34%;
+    top: -1363px;
+}
+.seven img{
+    width: 32%;
+    height: 70vh;
+    position: relative;
+    left: 68%;
+    top: -1825px;
+}
+.view {
+    font-size: 25px;
+    width: 15%;
+    height: 8vh;
+    position: absolute;
+    top: 110%;
+    left: 45%;
+    border: 2px solid black;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    cursor: pointer;
+}
+.view p {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.view:hover {
+    background-color: black;
+    color: white;
+}
+.about_me {
+    width: 100%;
+    height: 150vh;
+    background-color: black; 
+    position: absolute;
+    top: 390%;
+}
+.about_me h1 {
+    position: absolute;
+    left: 10%;
+    top: 12%;
+    font-size: 20px;
+    color: rgb(168, 168, 168);
+}
+.about_me p {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    font-size: 50px;
+    color: white;
+}
+.comments {
+    width: 35%;
+    position: absolute;
+    top: 437%;
+    right: 10%;
+    font-size: 20px;
+    color: white;
+}
+.name {
+    position: absolute;
+    top: 452%;
+    right: 17%;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+.border {
+    width: 35%;
+    position: absolute;
+    top: 460%;
+    left: 55%;
+    border-bottom: 2px solid silver;
+}
+.comments1 {
+    width: 35%;
+    position: absolute;
+    top: 465%;
+    right: 10%;
+    font-size: 20px;
+    color: white;
+}
+.names {
+    position: absolute;
+    top: 478%;
+    right: 13%;
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+}
+.works {
+    width: 100%;
+    position: relative;
+    left: 4%;
+    top: 855px;
+}
+.eight img {
+    width: 27%;
+    cursor: pointer;
+}
+.eight img:hover {
+    transition: box-shadow 0.3s ease-in-out; 
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.all{
+    width: 27%;
+    height: 37vh;
+    /* background-color: gray; */
+    position: relative;
+    left: 440px;
+    top: -245px;
+    border: 1px solid silver;
+    cursor: pointer;
+    color: white;
+}
+.all span {
+    position: relative;
+    left: 37%;
+    font-size: 18px;
+    top: 24%;
+    color: white;
+}
+.all p {
+    position: relative;
+    left: 24%;
+    font-size: 50px;
+    top: 33%;
+    cursor: pointer;
+}
+.all p a {
+    color: black;
+    text-decoration: none;
+    color: white;
+}
+.all p a:hover {
+    transition: 0.5s;
+    border-bottom: 3px solid white;
+}
+.all:hover {
+    transition: box-shadow 0.3s ease-in-out; 
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.nine img {
+    width: 27%;
+    height: 37.5vh;
+    cursor: pointer;
+    position: relative;
+    left: 875px;
+    top: -489px;
+}
+.nine img:hover {
+    transition: box-shadow 0.3s ease-in-out; 
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.our{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 540%;
+    background-color: rgb(238, 234, 234);
+}
+.text1 {
+    font-size: 25px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+.p {
+    width: 35%;
+    position: relative;
+    left: 10%;
+    top: 40%;
+    font-size: 20px;
+    font-weight: 5px;
+}
+.image img {
+    width: 25%;
+    height: 65vh;
+    position: relative;
+    left: 850px;
+    top: -70px;
+}
+.contact {
+    width: 12%;
+    height: 8vh;
+    border: 1px solid black;
+    position: relative;
+    top: -30%;
+    left: 10%;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    cursor: pointer;
+}
+.contact p {
+    text-align: center;
+    position: relative;
+    top: 11px;
+    font-size: 25px;
+}
+.contact:hover {
+    background-color: black;
+    color: white;
+}
+.price {
+    width: 100%;
+    height: 140vh;
+    /* background-color: red; */
+    position: absolute;
+    top: 650%;
+}
+.plans {
+    text-align: center;
+    position: relative;
+    top: -90px;
+    font-size: 18px;
+    color: rgb(170, 170, 170);
+}
+.take {
+    text-align: center;
+    position: relative;
+    top: -75px;
+    font-size: 60px;
+}
+.basic {
+    font-size: 40px;
+    position: relative;
+    left: 10%;
+    top: -20px;
+}
+.basic .span {
+    width: 40%;
+    position: relative;
+    left: 1px;
+    top: 25px;
+    color: black;
+}
+.pa p{
+    position: absolute;
+    left: 60%;
+    top: 15%;
+    font-size: 30px;
+}
+.buy {
+    position: absolute;
+    left: 80%;
+    top: 16%;
+}
+.buy p a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.buy img{
+    width: 30px;
+    position: relative;
+    left: 88px;
+    top: -25px;
+    cursor: pointer;
+}
+.right_border {
+    width: 78%;
+    position: relative;
+    left: 10%;
+    top: 5%;
+    border-bottom: 1px solid black;
+}
+.standard {
+    font-size: 40px;
+    position: relative;
+    left: 10%;
+    top: 90px;
+}
+.standard .span {
+    width: 40%;
+    position: relative;
+    top: 30px;
+    left: -2px;
+    color: black;
+}
+.lu p{
+    position: absolute;
+    left: 60%;
+    top: 41%;
+    font-size: 30px;
+}
+.bay {
+    position: absolute;
+    left: 80%;
+    top: 42%;
+}
+.bay p a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.bay img{
+    width: 30px;
+    position: relative;
+    left: 88px;
+    top: -25px;
+    cursor: pointer;
+}
+.left_border {
+    width: 78%;
+    position: relative;
+    left: 10%;
+    top: 18%;
+    border-bottom: 1px solid black;
+}
+.premium {
+    font-size: 40px;
+    position: relative;
+    left: 10%;
+    top: 205px;
+}
+.premium .span {
+    width: 40%;
+    position: relative;
+    top: 30px;
+    left: -2px;
+    color: black;
+}
+.la p{
+    position: absolute;
+    left: 60%;
+    top: 67%;
+    font-size: 30px;
+}
+.bey {
+    position: absolute;
+    left: 80%;
+    top: 68%;
+}
+.bey p a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+.bey img{
+    width: 30px;
+    position: relative;
+    left: 88px;
+    top: -25px;
+    cursor: pointer;
+}
+.top_border {
+    width: 78%;
+    position: relative;
+    left: 10%;
+    top: 32%;
+    border-bottom: 1px solid black;
+}
+.meet {
+    width: 100%;
+    height: 80vh;
+    /* background-color: red; */
+    position: absolute;
+    top: 780%;
+}
+.meet span {
+    position: absolute;
+    left: 9%;
+    top: 14px;
+    font-size: 18px;
+    color: rgb(170, 170, 170);
+}
+.meet p {
+    position: absolute;
+    left: 9%;
+    top: 12%;
+    font-size: 50px;
+}
+.photo {
+    position: absolute;
+    left: 6%;
+    top: 30%;
+}
+.eleven img {
+    width: 280px;
+}
+.eleven p {
+    position: relative;
+    left: 90px;
+    top: 8px;
+    font-size: 30px;
+}
+.eleven span {
+    position: relative;
+    font-size: 20px;
+    top: 13px;
+    left: 78px;
+    color: black;
+}
+.thirteen img {
+    width: 278px;
+    position: relative;
+    left: 300px;
+    top: -331px;
+}
+.thirteen p {
+    position: relative;
+    left: 405px;
+    top: -323px;
+    font-size: 30px;
+}
+.thirteen span {
+    position: relative;
+    font-size: 20px;
+    top: -316px;
+    left: 400px;
+    color: black;
+}
+.fourteen img {
+    width: 285px;
+    position: relative;
+    left: 600px;
+    top: -662px;
+}
+.fourteen p {
+    position: relative;
+    left: 695px;
+    top: -653px;
+    font-size: 30px;
+}
+.fourteen span {
+    position: relative;
+    font-size: 20px;
+    top: -646px;
+    left: 690px;
+    color: black;
+}
+.fifteen img {
+    width: 285px;
+    position: relative;
+    left: 910px;
+    top: -993px;
+}
+.fifteen p {
+    position: relative;
+    left: 1010px;
+    top: -986px;
+    font-size: 30px;
+}
+.fifteen span {
+    position: relative;
+    font-size: 20px;
+    top: -978px;
+    left: 1000px;
+    color: black;
+}
+.email {
+    width: 100%;
+    height: 65vh;
+    background-color: rgb(248, 246, 246);
+    /* background-color: red; */
+    position: absolute;
+    top: 880%;
+}
+.email p {
+    position: absolute;
+    left: 13%;
+    top: 150px;
+    font-size: 20px;
+}
+.email span {
+    position: absolute;
+    left: 13%;
+    top: 200px;
+    font-size: 20px;
+}
+.email span a {
+    color: black;
+    text-decoration: none;
+}
+.social {
+    position: relative;
+    top: 25%;
+}
+.inst img {
+    width: 30px;
+    position: absolute;
+    left: 13%;
+    top: 190px;
+}
+.inst img:hover {
+    cursor: pointer;
+}
+.face img {
+    width: 30px;
+    position: absolute;
+    left: 19%;
+    top: 190px;
+}
+.face img:hover {
+    cursor: pointer;
+}
+.twit img {
+    width: 30px;
+    position: absolute;
+    left: 25%;
+    top: 190px;
+}
+.twit img:hover {
+    cursor: pointer;
+}
+.look {
+    width: 35%;
+    position: absolute;
+    right: 13%;
+}
+.look p {
+    font-size: 27px;
+}
+.look p a {
+    color: black;
+    position: relative;
+    font-size: 32px;
+}
+.footer {
+    width: 100%;
+    height: 71vh;
+    background-color: black;
+    position: absolute;
+    top: 945%;
+    color: white;
+}
+.home {
+    position: absolute;
+    left: 8%;
+    top: 46%;
+}
+.home a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.about_footer {
+    position: relative;
+    left: 250%;
+    top: -31px;
+}
+.footer_logo {
+    position: relative;
+    left: 520%;
+    top: -75px;
+    cursor: pointer;
+}
+.footer_logo p {
+    font-size: 40px;
+}
+.service {
+    position: relative;
+    left: 790%;
+    top: -110px;
+    font-size: 25px;
+}
+.gallery {
+    position: relative;
+    left: 1000%;
+    top: -140px;
+    font-size: 25px;
+}
+.footer_border {
+    width: 1080%;
+    position: absolute;
+    top: 60%;
+    border-bottom: 1px solid white;
+}
